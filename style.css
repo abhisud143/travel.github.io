@@ -1,0 +1,274 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.header
+{
+	height: 100%;
+	background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(banner.jpg); 
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	padding-top: 10px;
+
+
+}
+.header h3
+{
+	color: #fff;
+}
+.header h3 img
+{
+	border: 2px solid #fff;
+	padding: 3px;
+}
+.header h1
+{
+	text-shadow: 2px 2px  8px #fff;
+	font-size: 80px;
+	text-align: center;
+	color: #f9022b;
+	padding-top: 100px;
+}
+.header p
+{
+	font-size: 20px;
+	text-align: center;
+	color: #fff;
+	margin: 18px 0;
+}
+.login-btn
+{
+	margin-top: -80px;
+	float: right;
+	width: 100px;
+	padding: 8px 0;
+	outline: none;
+	border: 2px solid #fff;
+	border-radius: 20px;
+	background: transparent;
+	color: #fff;
+}
+.input-group
+{
+	width: 90%  !important;
+	max-width: 400px;
+	border-radius: 30px;
+	background: #fff;
+	margin: auto;
+	padding: 2px;
+}
+.form-control
+{
+	border: 0 !important;
+	border-radius: 30px!important;
+	margin: 2px;
+	box-shadow: none !important;
+}
+.input-group-text
+{
+	width: 100px;
+	background-image: linear-gradient(#00ff7e,#1f3d90);
+	border:0 !important;
+	color: #fff !important;
+	padding: 0 25px;
+	border-radius: 30px !important;
+	box-shadow: none !important; 
+}
+
+/*features*/
+
+.features
+{
+	padding: 100px 0;
+}
+h1{
+	text-align: center;
+	padding-bottom: 30px;
+}
+.feature-img img
+{
+	width: 100%;
+	margin: 3px;
+}
+.price
+{
+	width: 50px;
+	height: 50px;
+	background: #ff5722;
+	color: #fff;
+	font-weight: 600;
+	border-radius: 50%;
+	padding: 10px;
+	box-shadow: 0 0 10px 1px rgba(37, 73 214,0.18);
+	position: absolute;
+	left: 20px;
+	bottom: -25px;
+}
+.feature-img
+{
+	position: relative;
+}
+.rating
+{
+
+	float: right;
+	background: #fff;
+	right: 0;
+}
+.features .fa
+{
+	font-size: 15px;
+	color: #ff5722;
+}
+.feature-details
+{
+	padding: 10px;
+	text-align: justify;
+}
+.feature-details h4
+{
+	margin-top: 20px;
+	font-weight: 600;
+} 
+.feature-details .fa
+{
+	margin-right: 10px;
+}
+.feature-box
+{
+	box-shadow: 0 0 10px 1px rgba(37,73,214,0.18);
+	margin-bottom: 30px;
+}
+.gallery
+{
+	padding: 100px 0;
+	background-color: #efefef;
+}
+.gallery-box img
+{
+	width: 100%;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: 1s;
+}
+.gallery-box img:hover
+{
+	transform: scale(1.1);
+}
+.gallery-box h4
+{
+	display: block;
+	color: white;
+	text-shadow: -2px 2px 2px red;
+	font-weight: 600;
+	font-size: 20px;
+	position: absolute;
+	top: 20px;
+	left: 120px;
+	transform: translate(-50%,-50%);
+}
+.gallery-box
+{
+	position: relative;
+	margin-bottom: 30px;
+}
+.banner
+{
+	height: 80%;
+	background-image: url(sea.jpg);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	padding-top: 15%;
+}
+.banner-highlights
+{
+	padding: 70px 0;
+	background: rgba(0,0,0,0.7);
+	text-align: center;
+	color: #fff;
+}
+.bokking-btn
+{
+	margin-top: 18px;
+	width: 150px;
+	padding: 8px 0;
+	outline: none;
+	border: 2px solid #fff;
+	border-radius: 50px;
+	background: transparent;
+	color: #fff;
+}
+.users-feedback
+{
+	padding: 100px 0;
+}
+.user-review
+{
+	text-align: center;
+	box-shadow: 0 0 10px 0 rgba(0, 0, 100, 0.2);
+	padding-bottom: 50px;
+}
+.user-review p
+{
+	padding: 50px 10px 10px 10px;
+}
+.users-feedback img
+{
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	position: relative;
+	margin: -30px 0 20px 40%;
+}
+.user-review p::before
+{
+	content: '\201d';
+	display: block;
+	position: absolute;
+	font-size: 100px;
+	color: #6495ed;
+	font-family: sans-serif;
+	left: 44%;
+	top:-20px;
+}
+.footer
+{
+	padding: 100px 20px 15px;
+	background-image: linear-gradient(#2d557d, #9610fb);
+	color: #fff;
+
+}
+
+.footer h4
+{
+	font-size: 30px;
+	text-align: left;
+
+}
+.footer p
+{
+	font-size: 12PX;
+	text-align: justify;
+	padding-right: 35px; 
+}
+.footer .row .fa
+{
+	padding-right: 20px;
+	font-size: 15px;
+}
+.footer hr
+{
+	margin-top: 10px;
+	background: #efefef;
+}
+.fa-heart
+{
+	margin: 0 5px;
+	color: #f44336;
+}
+.footer .copyright
+{
+	text-align: center;
+}
