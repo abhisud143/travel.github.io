@@ -15,12 +15,15 @@
 }
 .header h3
 {
-	color: #fff;
+	color: #b8bef9;
+	text-shadow: 5px 3px blue;
+	font-family: "AR JULIAN";
 }
 .header h3 img
 {
 	border: 2px solid #fff;
 	padding: 3px;
+	border-radius: 20px 0 20px 20px;
 }
 .header h1
 {
@@ -29,6 +32,8 @@
 	text-align: center;
 	color: #f9022b;
 	padding-top: 100px;
+	font-family: "AR JULIAN";
+
 }
 .header p
 {
@@ -81,10 +86,14 @@
 .features
 {
 	padding: 100px 0;
+
+
 }
 h1{
 	text-align: center;
 	padding-bottom: 30px;
+	font-family: "AR JULIAN";
+	text-shadow: 3px 3px 8px blue;
 }
 .feature-img img
 {
@@ -95,7 +104,7 @@ h1{
 {
 	width: 50px;
 	height: 50px;
-	background: #ff5722;
+	background: #f3a730;
 	color: #fff;
 	font-weight: 600;
 	border-radius: 50%;
@@ -143,7 +152,7 @@ h1{
 .gallery
 {
 	padding: 100px 0;
-	background-color: #efefef;
+	background-color: #30daf3;
 }
 .gallery-box img
 {
