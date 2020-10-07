@@ -6,7 +6,7 @@
 {
 	height: 100%;
 	background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(banner.jpg); 
-	background-size: cover;
+	background-size: 100% 100%;
 	background-position: center;
 	background-attachment: fixed;
 	padding-top: 10px;
@@ -187,7 +187,7 @@ h1{
 	height: 80%;
 	background-image: url(sea.jpg);
 	background-position: center;
-	background-size: cover;
+	background-size: 100% 100%;
 	background-attachment: fixed;
 	padding-top: 15%;
 }
